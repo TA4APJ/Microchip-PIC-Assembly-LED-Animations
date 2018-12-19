@@ -31,7 +31,7 @@ LED_KHIGHTRIDER
 	GOTO	$-1
 	MOVLW	H'01'
 	MOVWF	PORTB
-	;BSF		STATUS,C; BURADA OLURSA LED ARTARAK GÝDER 	
+	;BSF		STATUS,C; BURADA OLURSA LED ARTARAK GIDER 	
 SOL	
 	CALL	ZAMAN_0
 	RLF		PORTB,F
@@ -135,5 +135,4 @@ BUTONARK_0
 	NOP		
 	RETURN	;4 cycles (including call)	;}
 	END
-;------------Burak ÞEN tarafýndan yazýlmýþtýr--------------
-;Ýnönü Üniversitesi Elektrik Elektronik Mühendisliði Öðrencisi
+;------------by Burak SEN--------------
